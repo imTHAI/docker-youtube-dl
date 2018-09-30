@@ -7,4 +7,4 @@ RUN 	apk --update upgrade \
 	
 WORKDIR /data
 
-ENTRYPOINT ["youtube-dl","-o","~"]
+ENTRYPOINT ["youtube-dl"]
