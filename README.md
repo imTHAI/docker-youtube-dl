@@ -8,7 +8,7 @@ For example, for me it's in my Downloads folder ( under MacOS)
 
 2. Then Create an alias ( adapt the volume parameter with the folder u have chosen):
 
-alias yd='docker run --rm -v ~/Downloads:/data imthai/youtube-dl'
+`alias yd='docker run --rm -v ~/Downloads:/data imthai/youtube-dl'`
 
 # Usage:
 \# To download:
