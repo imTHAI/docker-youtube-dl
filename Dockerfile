@@ -4,5 +4,7 @@ LABEL description="youtube-dl under Alpine"
 
 RUN 	apk --update upgrade \
 	&& apk add --no-cache youtube-dl
+	
+WORKDIR /data
 
 ENTRYPOINT ["youtube-dl","-o","~"]
