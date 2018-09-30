@@ -11,10 +11,10 @@ alias yd='docker run --rm -v ~/Downloads:/data imthai/youtube-dl'
 
 # Usage:
 \# To download:
-yd 'http://url'
+`yd 'http://url'`
 
 \# To download in mp4:
-yd -t -f mp4 'http://url'
+`yd -t -f mp4 'http://url'`
 
 \# To just extract soundtrack in mp3:
-yd  -t -x --audio-format mp3 --audio-quality 0 'http://url'
+`yd  -t -x --audio-format mp3 --audio-quality 0 'http://url'`
