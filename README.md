@@ -6,16 +6,10 @@ youtube-dl package is available in alpine repositories so this dockerfile just i
 1. Choose where u want the video to be downloaded.
 For example, for me it's in my Downloads folder ( under MacOS)
 
-2. Then Create an alias ( adapt the volume parameter with the folder u have chosen):
+2. Then Create an alias ( adapt the volume parameter with the folder u have previously chosen):
 
-`alias yd='docker run --rm -v ~/Downloads:/data imthai/youtube-dl'`
+`alias torrengo='docker run --rm -v ~/Downloads:/data imthai/torrengo'`
 
 # Usage:
 \# To download:
-`yd 'http://url'`
-
-\# To download in mp4:
-`yd -t -f mp4 'http://url'`
-
-\# To just extract soundtrack in mp3:
-`yd  -t -x --audio-format mp3 --audio-quality 0 'http://url'`
+TODO
